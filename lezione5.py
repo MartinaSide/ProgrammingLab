@@ -59,7 +59,7 @@ class CSVfile ():
                 values.append(value)
                 data = elements[0]
                 values.append(data)
-                print ("[{}] [{}]" .format (data, value))
+                print ("{} {}" .format (data, value))
             elif elements[0] == 'Date':
                 print ("{}" .format(elements))
         my_file.close
