@@ -11,7 +11,7 @@ for line in my_file:
         value = float(elements[1])
         values.append(float(value))
         somma = somma + value
-print ('{}\n'.format(values)) #stampo i 
+print ('{}\n'.format(values)) #stampo tutti i miei valori
 #provo a definire una funzione somma
 def sum_list(the_list):
     somma = 0
@@ -24,4 +24,4 @@ if controllo == somma:
     print ('Il programma funziona! Il risultato calcolato è: {}' .format(somma))
 elif controllo != somma:
     print ('Qualcosa non sta funzionando... La prima funzione ha calcolato {}, la seconda invece {}' .format(somma) .format(controllo))
-my_file.close
+my_file.close()
